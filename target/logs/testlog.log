@@ -1,0 +1,397 @@
+2015-12-22 18:03:19,020 - org.apache.http.client.protocol.RequestAddCookies - DEBUG - CookieSpec selected: best-match
+2015-12-22 18:03:19,021 - org.apache.http.client.protocol.RequestAuthCache - DEBUG - Auth cache not set in the context
+2015-12-22 18:03:19,021 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2015-12-22 18:03:19,021 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2015-12-22 18:03:19,021 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Stale connection check
+2015-12-22 18:03:19,022 - org.apache.http.wire - DEBUG - http-outgoing-0 << "[read] I/O error: Read timed out"
+2015-12-22 18:03:19,022 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Executing request POST /wd/hub/session/0e23d02a-2f90-4f98-97a5-05ef2ee4d0c8/timeouts/implicit_wait HTTP/1.1
+2015-12-22 18:03:19,022 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Target auth state: UNCHALLENGED
+2015-12-22 18:03:19,022 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Proxy auth state: UNCHALLENGED
+2015-12-22 18:03:19,022 - org.apache.http.headers - DEBUG - http-outgoing-0 >> POST /wd/hub/session/0e23d02a-2f90-4f98-97a5-05ef2ee4d0c8/timeouts/implicit_wait HTTP/1.1
+2015-12-22 18:03:19,022 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2015-12-22 18:03:19,022 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Content-Length: 13
+2015-12-22 18:03:19,022 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Host: 127.0.0.1:4723
+2015-12-22 18:03:19,022 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2015-12-22 18:03:19,022 - org.apache.http.headers - DEBUG - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.3 (java 1.5)
+2015-12-22 18:03:19,022 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2015-12-22 18:03:19,022 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "POST /wd/hub/session/0e23d02a-2f90-4f98-97a5-05ef2ee4d0c8/timeouts/implicit_wait HTTP/1.1[\r][\n]"
+2015-12-22 18:03:19,022 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2015-12-22 18:03:19,022 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Content-Length: 13[\r][\n]"
+2015-12-22 18:03:19,022 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+2015-12-22 18:03:19,022 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2015-12-22 18:03:19,022 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.3 (java 1.5)[\r][\n]"
+2015-12-22 18:03:19,022 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2015-12-22 18:03:19,022 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "[\r][\n]"
+2015-12-22 18:03:19,022 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "{"ms":150000}"
+2015-12-22 18:03:19,025 - org.apache.http.wire - DEBUG - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2015-12-22 18:03:19,025 - org.apache.http.wire - DEBUG - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2015-12-22 18:03:19,025 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2015-12-22 18:03:19,025 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+2015-12-22 18:03:19,026 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+2015-12-22 18:03:19,026 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+2015-12-22 18:03:19,026 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2015-12-22 18:03:19,026 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Content-Length: 76[\r][\n]"
+2015-12-22 18:03:19,026 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Date: Tue, 22 Dec 2015 12:33:19 GMT[\r][\n]"
+2015-12-22 18:03:19,026 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2015-12-22 18:03:19,026 - org.apache.http.wire - DEBUG - http-outgoing-0 << "[\r][\n]"
+2015-12-22 18:03:19,026 - org.apache.http.wire - DEBUG - http-outgoing-0 << "{"status":0,"value":null,"sessionId":"0e23d02a-2f90-4f98-97a5-05ef2ee4d0c8"}"
+2015-12-22 18:03:19,026 - org.apache.http.headers - DEBUG - http-outgoing-0 << HTTP/1.1 200 OK
+2015-12-22 18:03:19,026 - org.apache.http.headers - DEBUG - http-outgoing-0 << X-Powered-By: Express
+2015-12-22 18:03:19,026 - org.apache.http.headers - DEBUG - http-outgoing-0 << Access-Control-Allow-Origin: *
+2015-12-22 18:03:19,026 - org.apache.http.headers - DEBUG - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+2015-12-22 18:03:19,026 - org.apache.http.headers - DEBUG - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+2015-12-22 18:03:19,026 - org.apache.http.headers - DEBUG - http-outgoing-0 << Vary: X-HTTP-Method-Override
+2015-12-22 18:03:19,026 - org.apache.http.headers - DEBUG - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2015-12-22 18:03:19,026 - org.apache.http.headers - DEBUG - http-outgoing-0 << Content-Length: 76
+2015-12-22 18:03:19,026 - org.apache.http.headers - DEBUG - http-outgoing-0 << Date: Tue, 22 Dec 2015 12:33:19 GMT
+2015-12-22 18:03:19,026 - org.apache.http.headers - DEBUG - http-outgoing-0 << Connection: keep-alive
+2015-12-22 18:03:19,026 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Connection can be kept alive indefinitely
+2015-12-22 18:03:19,026 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+2015-12-22 18:03:19,026 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2015-12-22 18:03:19,030 - WebDriverActions - INFO - Before finding the element 
+2015-12-22 18:03:19,031 - org.apache.http.client.protocol.RequestAddCookies - DEBUG - CookieSpec selected: best-match
+2015-12-22 18:03:19,031 - org.apache.http.client.protocol.RequestAuthCache - DEBUG - Auth cache not set in the context
+2015-12-22 18:03:19,032 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2015-12-22 18:03:19,032 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2015-12-22 18:03:19,032 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Stale connection check
+2015-12-22 18:03:19,034 - org.apache.http.wire - DEBUG - http-outgoing-0 << "[read] I/O error: Read timed out"
+2015-12-22 18:03:19,034 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Executing request POST /wd/hub/session/0e23d02a-2f90-4f98-97a5-05ef2ee4d0c8/element HTTP/1.1
+2015-12-22 18:03:19,034 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Target auth state: UNCHALLENGED
+2015-12-22 18:03:19,034 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Proxy auth state: UNCHALLENGED
+2015-12-22 18:03:19,034 - org.apache.http.headers - DEBUG - http-outgoing-0 >> POST /wd/hub/session/0e23d02a-2f90-4f98-97a5-05ef2ee4d0c8/element HTTP/1.1
+2015-12-22 18:03:19,034 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2015-12-22 18:03:19,034 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Content-Length: 32
+2015-12-22 18:03:19,034 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Host: 127.0.0.1:4723
+2015-12-22 18:03:19,034 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2015-12-22 18:03:19,034 - org.apache.http.headers - DEBUG - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.3 (java 1.5)
+2015-12-22 18:03:19,034 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2015-12-22 18:03:19,034 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "POST /wd/hub/session/0e23d02a-2f90-4f98-97a5-05ef2ee4d0c8/element HTTP/1.1[\r][\n]"
+2015-12-22 18:03:19,034 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2015-12-22 18:03:19,034 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Content-Length: 32[\r][\n]"
+2015-12-22 18:03:19,034 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+2015-12-22 18:03:19,034 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2015-12-22 18:03:19,034 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.3 (java 1.5)[\r][\n]"
+2015-12-22 18:03:19,034 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2015-12-22 18:03:19,034 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "[\r][\n]"
+2015-12-22 18:03:19,034 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "{"using":"name","value":"India"}"
+2015-12-22 18:03:22,742 - org.apache.http.wire - DEBUG - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2015-12-22 18:03:22,743 - org.apache.http.wire - DEBUG - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2015-12-22 18:03:22,743 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2015-12-22 18:03:22,743 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+2015-12-22 18:03:22,744 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+2015-12-22 18:03:22,744 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+2015-12-22 18:03:22,744 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2015-12-22 18:03:22,744 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Content-Length: 87[\r][\n]"
+2015-12-22 18:03:22,744 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Date: Tue, 22 Dec 2015 12:33:22 GMT[\r][\n]"
+2015-12-22 18:03:22,744 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2015-12-22 18:03:22,744 - org.apache.http.wire - DEBUG - http-outgoing-0 << "[\r][\n]"
+2015-12-22 18:03:22,744 - org.apache.http.wire - DEBUG - http-outgoing-0 << "{"status":0,"value":{"ELEMENT":"1"},"sessionId":"0e23d02a-2f90-4f98-97a5-05ef2ee4d0c8"}"
+2015-12-22 18:03:22,745 - org.apache.http.headers - DEBUG - http-outgoing-0 << HTTP/1.1 200 OK
+2015-12-22 18:03:22,745 - org.apache.http.headers - DEBUG - http-outgoing-0 << X-Powered-By: Express
+2015-12-22 18:03:22,745 - org.apache.http.headers - DEBUG - http-outgoing-0 << Access-Control-Allow-Origin: *
+2015-12-22 18:03:22,745 - org.apache.http.headers - DEBUG - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+2015-12-22 18:03:22,745 - org.apache.http.headers - DEBUG - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+2015-12-22 18:03:22,745 - org.apache.http.headers - DEBUG - http-outgoing-0 << Vary: X-HTTP-Method-Override
+2015-12-22 18:03:22,745 - org.apache.http.headers - DEBUG - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2015-12-22 18:03:22,746 - org.apache.http.headers - DEBUG - http-outgoing-0 << Content-Length: 87
+2015-12-22 18:03:22,746 - org.apache.http.headers - DEBUG - http-outgoing-0 << Date: Tue, 22 Dec 2015 12:33:22 GMT
+2015-12-22 18:03:22,746 - org.apache.http.headers - DEBUG - http-outgoing-0 << Connection: keep-alive
+2015-12-22 18:03:22,746 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Connection can be kept alive indefinitely
+2015-12-22 18:03:22,747 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+2015-12-22 18:03:22,748 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2015-12-22 18:03:22,752 - WebDriverActions - INFO - After finding the web element 
+2015-12-22 18:03:22,766 - WebDriverActions - INFO - clicking : 
+2015-12-22 18:03:22,769 - org.apache.http.client.protocol.RequestAddCookies - DEBUG - CookieSpec selected: best-match
+2015-12-22 18:03:22,770 - org.apache.http.client.protocol.RequestAuthCache - DEBUG - Auth cache not set in the context
+2015-12-22 18:03:22,770 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2015-12-22 18:03:22,770 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2015-12-22 18:03:22,770 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Stale connection check
+2015-12-22 18:03:22,772 - org.apache.http.wire - DEBUG - http-outgoing-0 << "[read] I/O error: Read timed out"
+2015-12-22 18:03:22,772 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Executing request POST /wd/hub/session/0e23d02a-2f90-4f98-97a5-05ef2ee4d0c8/element/1/click HTTP/1.1
+2015-12-22 18:03:22,772 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Target auth state: UNCHALLENGED
+2015-12-22 18:03:22,772 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Proxy auth state: UNCHALLENGED
+2015-12-22 18:03:22,772 - org.apache.http.headers - DEBUG - http-outgoing-0 >> POST /wd/hub/session/0e23d02a-2f90-4f98-97a5-05ef2ee4d0c8/element/1/click HTTP/1.1
+2015-12-22 18:03:22,772 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2015-12-22 18:03:22,772 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Content-Length: 10
+2015-12-22 18:03:22,772 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Host: 127.0.0.1:4723
+2015-12-22 18:03:22,772 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2015-12-22 18:03:22,772 - org.apache.http.headers - DEBUG - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.3 (java 1.5)
+2015-12-22 18:03:22,772 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2015-12-22 18:03:22,772 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "POST /wd/hub/session/0e23d02a-2f90-4f98-97a5-05ef2ee4d0c8/element/1/click HTTP/1.1[\r][\n]"
+2015-12-22 18:03:22,772 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2015-12-22 18:03:22,772 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Content-Length: 10[\r][\n]"
+2015-12-22 18:03:22,773 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+2015-12-22 18:03:22,773 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2015-12-22 18:03:22,773 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.3 (java 1.5)[\r][\n]"
+2015-12-22 18:03:22,773 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2015-12-22 18:03:22,773 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "[\r][\n]"
+2015-12-22 18:03:22,773 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "{"id":"1"}"
+2015-12-22 18:03:23,700 - org.apache.http.wire - DEBUG - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2015-12-22 18:03:23,700 - org.apache.http.wire - DEBUG - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2015-12-22 18:03:23,700 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2015-12-22 18:03:23,701 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+2015-12-22 18:03:23,701 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+2015-12-22 18:03:23,701 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+2015-12-22 18:03:23,701 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2015-12-22 18:03:23,701 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Content-Length: 76[\r][\n]"
+2015-12-22 18:03:23,701 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Date: Tue, 22 Dec 2015 12:33:23 GMT[\r][\n]"
+2015-12-22 18:03:23,701 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2015-12-22 18:03:23,701 - org.apache.http.wire - DEBUG - http-outgoing-0 << "[\r][\n]"
+2015-12-22 18:03:23,701 - org.apache.http.wire - DEBUG - http-outgoing-0 << "{"status":0,"value":true,"sessionId":"0e23d02a-2f90-4f98-97a5-05ef2ee4d0c8"}"
+2015-12-22 18:03:23,701 - org.apache.http.headers - DEBUG - http-outgoing-0 << HTTP/1.1 200 OK
+2015-12-22 18:03:23,701 - org.apache.http.headers - DEBUG - http-outgoing-0 << X-Powered-By: Express
+2015-12-22 18:03:23,701 - org.apache.http.headers - DEBUG - http-outgoing-0 << Access-Control-Allow-Origin: *
+2015-12-22 18:03:23,701 - org.apache.http.headers - DEBUG - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+2015-12-22 18:03:23,701 - org.apache.http.headers - DEBUG - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+2015-12-22 18:03:23,701 - org.apache.http.headers - DEBUG - http-outgoing-0 << Vary: X-HTTP-Method-Override
+2015-12-22 18:03:23,701 - org.apache.http.headers - DEBUG - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2015-12-22 18:03:23,701 - org.apache.http.headers - DEBUG - http-outgoing-0 << Content-Length: 76
+2015-12-22 18:03:23,701 - org.apache.http.headers - DEBUG - http-outgoing-0 << Date: Tue, 22 Dec 2015 12:33:23 GMT
+2015-12-22 18:03:23,701 - org.apache.http.headers - DEBUG - http-outgoing-0 << Connection: keep-alive
+2015-12-22 18:03:23,701 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Connection can be kept alive indefinitely
+2015-12-22 18:03:23,702 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+2015-12-22 18:03:23,702 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2015-12-22 18:03:23,702 - WebDriverActions - INFO - element clicked in web page 
+2015-12-22 18:03:23,705 - org.apache.http.client.protocol.RequestAddCookies - DEBUG - CookieSpec selected: best-match
+2015-12-22 18:03:23,705 - org.apache.http.client.protocol.RequestAuthCache - DEBUG - Auth cache not set in the context
+2015-12-22 18:03:23,705 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2015-12-22 18:03:23,705 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2015-12-22 18:03:23,705 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Stale connection check
+2015-12-22 18:03:23,706 - org.apache.http.wire - DEBUG - http-outgoing-0 << "[read] I/O error: Read timed out"
+2015-12-22 18:03:23,706 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Executing request DELETE /wd/hub/session/0e23d02a-2f90-4f98-97a5-05ef2ee4d0c8 HTTP/1.1
+2015-12-22 18:03:23,706 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Target auth state: UNCHALLENGED
+2015-12-22 18:03:23,706 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Proxy auth state: UNCHALLENGED
+2015-12-22 18:03:23,706 - org.apache.http.headers - DEBUG - http-outgoing-0 >> DELETE /wd/hub/session/0e23d02a-2f90-4f98-97a5-05ef2ee4d0c8 HTTP/1.1
+2015-12-22 18:03:23,706 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Host: 127.0.0.1:4723
+2015-12-22 18:03:23,706 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2015-12-22 18:03:23,706 - org.apache.http.headers - DEBUG - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.3 (java 1.5)
+2015-12-22 18:03:23,706 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2015-12-22 18:03:23,706 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "DELETE /wd/hub/session/0e23d02a-2f90-4f98-97a5-05ef2ee4d0c8 HTTP/1.1[\r][\n]"
+2015-12-22 18:03:23,706 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+2015-12-22 18:03:23,706 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2015-12-22 18:03:23,706 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.3 (java 1.5)[\r][\n]"
+2015-12-22 18:03:23,706 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2015-12-22 18:03:23,706 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "[\r][\n]"
+2015-12-22 18:03:24,499 - org.apache.http.wire - DEBUG - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2015-12-22 18:03:24,499 - org.apache.http.wire - DEBUG - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2015-12-22 18:03:24,499 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2015-12-22 18:03:24,499 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+2015-12-22 18:03:24,499 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+2015-12-22 18:03:24,499 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2015-12-22 18:03:24,499 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Content-Length: 76[\r][\n]"
+2015-12-22 18:03:24,499 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Date: Tue, 22 Dec 2015 12:33:24 GMT[\r][\n]"
+2015-12-22 18:03:24,500 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2015-12-22 18:03:24,500 - org.apache.http.wire - DEBUG - http-outgoing-0 << "[\r][\n]"
+2015-12-22 18:03:24,500 - org.apache.http.wire - DEBUG - http-outgoing-0 << "{"status":0,"value":null,"sessionId":"0e23d02a-2f90-4f98-97a5-05ef2ee4d0c8"}"
+2015-12-22 18:03:24,500 - org.apache.http.headers - DEBUG - http-outgoing-0 << HTTP/1.1 200 OK
+2015-12-22 18:03:24,500 - org.apache.http.headers - DEBUG - http-outgoing-0 << X-Powered-By: Express
+2015-12-22 18:03:24,500 - org.apache.http.headers - DEBUG - http-outgoing-0 << Access-Control-Allow-Origin: *
+2015-12-22 18:03:24,500 - org.apache.http.headers - DEBUG - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+2015-12-22 18:03:24,500 - org.apache.http.headers - DEBUG - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+2015-12-22 18:03:24,500 - org.apache.http.headers - DEBUG - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2015-12-22 18:03:24,500 - org.apache.http.headers - DEBUG - http-outgoing-0 << Content-Length: 76
+2015-12-22 18:03:24,500 - org.apache.http.headers - DEBUG - http-outgoing-0 << Date: Tue, 22 Dec 2015 12:33:24 GMT
+2015-12-22 18:03:24,500 - org.apache.http.headers - DEBUG - http-outgoing-0 << Connection: keep-alive
+2015-12-22 18:03:24,500 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Connection can be kept alive indefinitely
+2015-12-22 18:03:24,501 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+2015-12-22 18:03:24,501 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2015-12-22 18:14:37,167 - org.apache.http.client.protocol.RequestAddCookies - DEBUG - CookieSpec selected: best-match
+2015-12-22 18:14:37,192 - org.apache.http.client.protocol.RequestAuthCache - DEBUG - Auth cache not set in the context
+2015-12-22 18:14:37,192 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2015-12-22 18:14:37,193 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2015-12-22 18:14:37,193 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Stale connection check
+2015-12-22 18:14:37,194 - org.apache.http.wire - DEBUG - http-outgoing-0 << "[read] I/O error: Read timed out"
+2015-12-22 18:14:37,194 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Executing request POST /wd/hub/session/950350f3-7fcb-4e27-bc9f-14e2769414a2/timeouts/implicit_wait HTTP/1.1
+2015-12-22 18:14:37,194 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Target auth state: UNCHALLENGED
+2015-12-22 18:14:37,194 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Proxy auth state: UNCHALLENGED
+2015-12-22 18:14:37,194 - org.apache.http.headers - DEBUG - http-outgoing-0 >> POST /wd/hub/session/950350f3-7fcb-4e27-bc9f-14e2769414a2/timeouts/implicit_wait HTTP/1.1
+2015-12-22 18:14:37,194 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2015-12-22 18:14:37,194 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Content-Length: 13
+2015-12-22 18:14:37,194 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Host: 127.0.0.1:4723
+2015-12-22 18:14:37,194 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2015-12-22 18:14:37,194 - org.apache.http.headers - DEBUG - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.3 (java 1.5)
+2015-12-22 18:14:37,194 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2015-12-22 18:14:37,195 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "POST /wd/hub/session/950350f3-7fcb-4e27-bc9f-14e2769414a2/timeouts/implicit_wait HTTP/1.1[\r][\n]"
+2015-12-22 18:14:37,195 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2015-12-22 18:14:37,195 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Content-Length: 13[\r][\n]"
+2015-12-22 18:14:37,195 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+2015-12-22 18:14:37,195 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2015-12-22 18:14:37,195 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.3 (java 1.5)[\r][\n]"
+2015-12-22 18:14:37,195 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2015-12-22 18:14:37,195 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "[\r][\n]"
+2015-12-22 18:14:37,195 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "{"ms":150000}"
+2015-12-22 18:14:37,202 - org.apache.http.wire - DEBUG - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2015-12-22 18:14:37,202 - org.apache.http.wire - DEBUG - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2015-12-22 18:14:37,202 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2015-12-22 18:14:37,202 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+2015-12-22 18:14:37,202 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+2015-12-22 18:14:37,202 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+2015-12-22 18:14:37,202 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2015-12-22 18:14:37,202 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Content-Length: 76[\r][\n]"
+2015-12-22 18:14:37,204 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Date: Tue, 22 Dec 2015 12:44:37 GMT[\r][\n]"
+2015-12-22 18:14:37,204 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2015-12-22 18:14:37,204 - org.apache.http.wire - DEBUG - http-outgoing-0 << "[\r][\n]"
+2015-12-22 18:14:37,204 - org.apache.http.wire - DEBUG - http-outgoing-0 << "{"status":0,"value":null,"sessionId":"950350f3-7fcb-4e27-bc9f-14e2769414a2"}"
+2015-12-22 18:14:37,205 - org.apache.http.headers - DEBUG - http-outgoing-0 << HTTP/1.1 200 OK
+2015-12-22 18:14:37,205 - org.apache.http.headers - DEBUG - http-outgoing-0 << X-Powered-By: Express
+2015-12-22 18:14:37,205 - org.apache.http.headers - DEBUG - http-outgoing-0 << Access-Control-Allow-Origin: *
+2015-12-22 18:14:37,205 - org.apache.http.headers - DEBUG - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+2015-12-22 18:14:37,205 - org.apache.http.headers - DEBUG - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+2015-12-22 18:14:37,205 - org.apache.http.headers - DEBUG - http-outgoing-0 << Vary: X-HTTP-Method-Override
+2015-12-22 18:14:37,205 - org.apache.http.headers - DEBUG - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2015-12-22 18:14:37,205 - org.apache.http.headers - DEBUG - http-outgoing-0 << Content-Length: 76
+2015-12-22 18:14:37,205 - org.apache.http.headers - DEBUG - http-outgoing-0 << Date: Tue, 22 Dec 2015 12:44:37 GMT
+2015-12-22 18:14:37,205 - org.apache.http.headers - DEBUG - http-outgoing-0 << Connection: keep-alive
+2015-12-22 18:14:37,205 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Connection can be kept alive indefinitely
+2015-12-22 18:14:37,206 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+2015-12-22 18:14:37,206 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2015-12-22 18:14:37,211 - FirstTest - INFO - Starting test execution
+2015-12-22 18:14:37,219 - WebDriverActions - INFO - Before finding the element 
+2015-12-22 18:14:37,220 - org.apache.http.client.protocol.RequestAddCookies - DEBUG - CookieSpec selected: best-match
+2015-12-22 18:14:37,221 - org.apache.http.client.protocol.RequestAuthCache - DEBUG - Auth cache not set in the context
+2015-12-22 18:14:37,221 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2015-12-22 18:14:37,221 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2015-12-22 18:14:37,221 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Stale connection check
+2015-12-22 18:14:37,222 - org.apache.http.wire - DEBUG - http-outgoing-0 << "[read] I/O error: Read timed out"
+2015-12-22 18:14:37,222 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Executing request POST /wd/hub/session/950350f3-7fcb-4e27-bc9f-14e2769414a2/element HTTP/1.1
+2015-12-22 18:14:37,222 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Target auth state: UNCHALLENGED
+2015-12-22 18:14:37,222 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Proxy auth state: UNCHALLENGED
+2015-12-22 18:14:37,222 - org.apache.http.headers - DEBUG - http-outgoing-0 >> POST /wd/hub/session/950350f3-7fcb-4e27-bc9f-14e2769414a2/element HTTP/1.1
+2015-12-22 18:14:37,222 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2015-12-22 18:14:37,222 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Content-Length: 32
+2015-12-22 18:14:37,222 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Host: 127.0.0.1:4723
+2015-12-22 18:14:37,222 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2015-12-22 18:14:37,222 - org.apache.http.headers - DEBUG - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.3 (java 1.5)
+2015-12-22 18:14:37,222 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2015-12-22 18:14:37,222 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "POST /wd/hub/session/950350f3-7fcb-4e27-bc9f-14e2769414a2/element HTTP/1.1[\r][\n]"
+2015-12-22 18:14:37,222 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2015-12-22 18:14:37,222 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Content-Length: 32[\r][\n]"
+2015-12-22 18:14:37,222 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+2015-12-22 18:14:37,222 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2015-12-22 18:14:37,222 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.3 (java 1.5)[\r][\n]"
+2015-12-22 18:14:37,222 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2015-12-22 18:14:37,222 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "[\r][\n]"
+2015-12-22 18:14:37,222 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "{"using":"name","value":"India"}"
+2015-12-22 18:14:39,644 - org.apache.http.wire - DEBUG - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2015-12-22 18:14:39,644 - org.apache.http.wire - DEBUG - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2015-12-22 18:14:39,644 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2015-12-22 18:14:39,645 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+2015-12-22 18:14:39,645 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+2015-12-22 18:14:39,645 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+2015-12-22 18:14:39,645 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2015-12-22 18:14:39,645 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Content-Length: 87[\r][\n]"
+2015-12-22 18:14:39,645 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Date: Tue, 22 Dec 2015 12:44:39 GMT[\r][\n]"
+2015-12-22 18:14:39,645 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2015-12-22 18:14:39,645 - org.apache.http.wire - DEBUG - http-outgoing-0 << "[\r][\n]"
+2015-12-22 18:14:39,645 - org.apache.http.wire - DEBUG - http-outgoing-0 << "{"status":0,"value":{"ELEMENT":"1"},"sessionId":"950350f3-7fcb-4e27-bc9f-14e2769414a2"}"
+2015-12-22 18:14:39,645 - org.apache.http.headers - DEBUG - http-outgoing-0 << HTTP/1.1 200 OK
+2015-12-22 18:14:39,645 - org.apache.http.headers - DEBUG - http-outgoing-0 << X-Powered-By: Express
+2015-12-22 18:14:39,645 - org.apache.http.headers - DEBUG - http-outgoing-0 << Access-Control-Allow-Origin: *
+2015-12-22 18:14:39,645 - org.apache.http.headers - DEBUG - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+2015-12-22 18:14:39,645 - org.apache.http.headers - DEBUG - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+2015-12-22 18:14:39,645 - org.apache.http.headers - DEBUG - http-outgoing-0 << Vary: X-HTTP-Method-Override
+2015-12-22 18:14:39,645 - org.apache.http.headers - DEBUG - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2015-12-22 18:14:39,645 - org.apache.http.headers - DEBUG - http-outgoing-0 << Content-Length: 87
+2015-12-22 18:14:39,645 - org.apache.http.headers - DEBUG - http-outgoing-0 << Date: Tue, 22 Dec 2015 12:44:39 GMT
+2015-12-22 18:14:39,645 - org.apache.http.headers - DEBUG - http-outgoing-0 << Connection: keep-alive
+2015-12-22 18:14:39,645 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Connection can be kept alive indefinitely
+2015-12-22 18:14:39,646 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+2015-12-22 18:14:39,646 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2015-12-22 18:14:39,653 - WebDriverActions - INFO - After finding the web element 
+2015-12-22 18:14:39,666 - WebDriverActions - INFO - clicking : 
+2015-12-22 18:14:39,670 - org.apache.http.client.protocol.RequestAddCookies - DEBUG - CookieSpec selected: best-match
+2015-12-22 18:14:39,670 - org.apache.http.client.protocol.RequestAuthCache - DEBUG - Auth cache not set in the context
+2015-12-22 18:14:39,670 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2015-12-22 18:14:39,670 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2015-12-22 18:14:39,670 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Stale connection check
+2015-12-22 18:14:39,671 - org.apache.http.wire - DEBUG - http-outgoing-0 << "[read] I/O error: Read timed out"
+2015-12-22 18:14:39,671 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Executing request POST /wd/hub/session/950350f3-7fcb-4e27-bc9f-14e2769414a2/element/1/click HTTP/1.1
+2015-12-22 18:14:39,671 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Target auth state: UNCHALLENGED
+2015-12-22 18:14:39,671 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Proxy auth state: UNCHALLENGED
+2015-12-22 18:14:39,671 - org.apache.http.headers - DEBUG - http-outgoing-0 >> POST /wd/hub/session/950350f3-7fcb-4e27-bc9f-14e2769414a2/element/1/click HTTP/1.1
+2015-12-22 18:14:39,671 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2015-12-22 18:14:39,671 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Content-Length: 10
+2015-12-22 18:14:39,671 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Host: 127.0.0.1:4723
+2015-12-22 18:14:39,671 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2015-12-22 18:14:39,671 - org.apache.http.headers - DEBUG - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.3 (java 1.5)
+2015-12-22 18:14:39,671 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2015-12-22 18:14:39,671 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "POST /wd/hub/session/950350f3-7fcb-4e27-bc9f-14e2769414a2/element/1/click HTTP/1.1[\r][\n]"
+2015-12-22 18:14:39,671 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2015-12-22 18:14:39,671 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Content-Length: 10[\r][\n]"
+2015-12-22 18:14:39,671 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+2015-12-22 18:14:39,671 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2015-12-22 18:14:39,671 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.3 (java 1.5)[\r][\n]"
+2015-12-22 18:14:39,671 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2015-12-22 18:14:39,672 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "[\r][\n]"
+2015-12-22 18:14:39,672 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "{"id":"1"}"
+2015-12-22 18:14:42,818 - org.apache.http.wire - DEBUG - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2015-12-22 18:14:42,818 - org.apache.http.wire - DEBUG - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2015-12-22 18:14:42,818 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2015-12-22 18:14:42,818 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+2015-12-22 18:14:42,818 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+2015-12-22 18:14:42,818 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+2015-12-22 18:14:42,818 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2015-12-22 18:14:42,818 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Content-Length: 76[\r][\n]"
+2015-12-22 18:14:42,818 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Date: Tue, 22 Dec 2015 12:44:42 GMT[\r][\n]"
+2015-12-22 18:14:42,818 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2015-12-22 18:14:42,818 - org.apache.http.wire - DEBUG - http-outgoing-0 << "[\r][\n]"
+2015-12-22 18:14:42,818 - org.apache.http.wire - DEBUG - http-outgoing-0 << "{"status":0,"value":true,"sessionId":"950350f3-7fcb-4e27-bc9f-14e2769414a2"}"
+2015-12-22 18:14:42,818 - org.apache.http.headers - DEBUG - http-outgoing-0 << HTTP/1.1 200 OK
+2015-12-22 18:14:42,819 - org.apache.http.headers - DEBUG - http-outgoing-0 << X-Powered-By: Express
+2015-12-22 18:14:42,819 - org.apache.http.headers - DEBUG - http-outgoing-0 << Access-Control-Allow-Origin: *
+2015-12-22 18:14:42,819 - org.apache.http.headers - DEBUG - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+2015-12-22 18:14:42,819 - org.apache.http.headers - DEBUG - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+2015-12-22 18:14:42,819 - org.apache.http.headers - DEBUG - http-outgoing-0 << Vary: X-HTTP-Method-Override
+2015-12-22 18:14:42,819 - org.apache.http.headers - DEBUG - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2015-12-22 18:14:42,819 - org.apache.http.headers - DEBUG - http-outgoing-0 << Content-Length: 76
+2015-12-22 18:14:42,819 - org.apache.http.headers - DEBUG - http-outgoing-0 << Date: Tue, 22 Dec 2015 12:44:42 GMT
+2015-12-22 18:14:42,819 - org.apache.http.headers - DEBUG - http-outgoing-0 << Connection: keep-alive
+2015-12-22 18:14:42,819 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Connection can be kept alive indefinitely
+2015-12-22 18:14:42,819 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+2015-12-22 18:14:42,819 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2015-12-22 18:14:42,820 - WebDriverActions - INFO - element clicked in web page 
+2015-12-22 18:14:42,820 - FirstTest - INFO - Test execution completed Successfully
+2015-12-22 18:14:42,824 - org.apache.http.client.protocol.RequestAddCookies - DEBUG - CookieSpec selected: best-match
+2015-12-22 18:14:42,824 - org.apache.http.client.protocol.RequestAuthCache - DEBUG - Auth cache not set in the context
+2015-12-22 18:14:42,824 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2015-12-22 18:14:42,825 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2015-12-22 18:14:42,825 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Stale connection check
+2015-12-22 18:14:42,827 - org.apache.http.wire - DEBUG - http-outgoing-0 << "[read] I/O error: Read timed out"
+2015-12-22 18:14:42,827 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Executing request DELETE /wd/hub/session/950350f3-7fcb-4e27-bc9f-14e2769414a2 HTTP/1.1
+2015-12-22 18:14:42,827 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Target auth state: UNCHALLENGED
+2015-12-22 18:14:42,827 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Proxy auth state: UNCHALLENGED
+2015-12-22 18:14:42,827 - org.apache.http.headers - DEBUG - http-outgoing-0 >> DELETE /wd/hub/session/950350f3-7fcb-4e27-bc9f-14e2769414a2 HTTP/1.1
+2015-12-22 18:14:42,827 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Host: 127.0.0.1:4723
+2015-12-22 18:14:42,827 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2015-12-22 18:14:42,827 - org.apache.http.headers - DEBUG - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.3 (java 1.5)
+2015-12-22 18:14:42,827 - org.apache.http.headers - DEBUG - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2015-12-22 18:14:42,827 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "DELETE /wd/hub/session/950350f3-7fcb-4e27-bc9f-14e2769414a2 HTTP/1.1[\r][\n]"
+2015-12-22 18:14:42,827 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+2015-12-22 18:14:42,827 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2015-12-22 18:14:42,827 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.3 (java 1.5)[\r][\n]"
+2015-12-22 18:14:42,827 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2015-12-22 18:14:42,827 - org.apache.http.wire - DEBUG - http-outgoing-0 >> "[\r][\n]"
+2015-12-22 18:14:43,549 - org.apache.http.wire - DEBUG - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2015-12-22 18:14:43,550 - org.apache.http.wire - DEBUG - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2015-12-22 18:14:43,550 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2015-12-22 18:14:43,550 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+2015-12-22 18:14:43,550 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+2015-12-22 18:14:43,550 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2015-12-22 18:14:43,550 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Content-Length: 76[\r][\n]"
+2015-12-22 18:14:43,550 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Date: Tue, 22 Dec 2015 12:44:43 GMT[\r][\n]"
+2015-12-22 18:14:43,550 - org.apache.http.wire - DEBUG - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2015-12-22 18:14:43,550 - org.apache.http.wire - DEBUG - http-outgoing-0 << "[\r][\n]"
+2015-12-22 18:14:43,550 - org.apache.http.wire - DEBUG - http-outgoing-0 << "{"status":0,"value":null,"sessionId":"950350f3-7fcb-4e27-bc9f-14e2769414a2"}"
+2015-12-22 18:14:43,550 - org.apache.http.headers - DEBUG - http-outgoing-0 << HTTP/1.1 200 OK
+2015-12-22 18:14:43,550 - org.apache.http.headers - DEBUG - http-outgoing-0 << X-Powered-By: Express
+2015-12-22 18:14:43,550 - org.apache.http.headers - DEBUG - http-outgoing-0 << Access-Control-Allow-Origin: *
+2015-12-22 18:14:43,550 - org.apache.http.headers - DEBUG - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+2015-12-22 18:14:43,550 - org.apache.http.headers - DEBUG - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+2015-12-22 18:14:43,550 - org.apache.http.headers - DEBUG - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2015-12-22 18:14:43,550 - org.apache.http.headers - DEBUG - http-outgoing-0 << Content-Length: 76
+2015-12-22 18:14:43,550 - org.apache.http.headers - DEBUG - http-outgoing-0 << Date: Tue, 22 Dec 2015 12:44:43 GMT
+2015-12-22 18:14:43,550 - org.apache.http.headers - DEBUG - http-outgoing-0 << Connection: keep-alive
+2015-12-22 18:14:43,550 - org.apache.http.impl.execchain.MainClientExec - DEBUG - Connection can be kept alive indefinitely
+2015-12-22 18:14:43,551 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+2015-12-22 18:14:43,551 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager - DEBUG - Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2015-12-22 18:14:43,634 - org.testng.TestRunner - INFO - Finished test execution

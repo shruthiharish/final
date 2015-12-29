@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17527" started-at="2015-12-22T12:44:26Z" finished-at="2015-12-22T12:44:43Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17527" started-at="2015-12-22T12:44:26Z" finished-at="2015-12-22T12:44:43Z">
+      <class name="First_Mobile.Price_Raja_App.Test.FirstPageTest">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:First_Mobile.Price_Raja_App.Test.FirstPageTest@56ac3a89]" name="preCondition" is-config="true" duration-ms="11164" started-at="2015-12-22T18:14:26Z" finished-at="2015-12-22T18:14:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="FirstTest()[pri:0, instance:First_Mobile.Price_Raja_App.Test.FirstPageTest@56ac3a89]" name="FirstTest" duration-ms="5611" started-at="2015-12-22T18:14:37Z" finished-at="2015-12-22T18:14:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:First_Mobile.Price_Raja_App.Test.FirstPageTest@56ac3a89]" name="tearDown" is-config="true" duration-ms="733" started-at="2015-12-22T18:14:42Z" finished-at="2015-12-22T18:14:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- First_Mobile.Price_Raja_App.Test.FirstPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

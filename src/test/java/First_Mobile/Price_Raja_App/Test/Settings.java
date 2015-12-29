@@ -28,7 +28,7 @@ public class Settings {
 	static DriverListner listner;
 	
 	{
-		System.setProperty("atu.reporter.config", "C:\\Users\\Administrator\\Desktop\\PriceRajaAutomation\\Price-Raja-App\\src\\test\\java\\First_Mobile\\Price_Raja_App\\Properties\\atu.properties");
+		System.setProperty("atu.reporter.config", ".\\src\\test\\java\\First_Mobile\\Price_Raja_App\\Properties\\atu.properties");
 	}
 
 	

@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="5.611">
+           time="4.808">
   <properties />
   
   
-            <testcase name="FirstTest" time="5.611" classname="First_Mobile.Price_Raja_App.Test.FirstPageTest" />
+            <testcase name="FirstTest" time="4.808" classname="First_Mobile.Price_Raja_App.Test.FirstPageTest" />
       
 </testsuite>

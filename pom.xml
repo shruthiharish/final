@@ -105,7 +105,7 @@
   		<groupId>atu</groupId>
   		<artifactId>ATUReporter_Selenium_testNG</artifactId>
   		<version>5.1.1</version>
-  		<systemPath>C:\Users\Administrator\Desktop\PriceRajaAutomation\Price-Raja-App\externalJars\ATUReporter_Selenium_testNG_5.1.1.jar</systemPath>
+  		<systemPath>C:\Users\Administrator\Desktop\git-repo\PriceRajaAutomation\Price-Raja-App\externalJars\ATUReporter_Selenium_testNG_5.1.1.jar</systemPath>
   		<scope>system</scope>
   	</dependency>
   	<dependency>
@@ -113,7 +113,7 @@
   		<artifactId>ATUTestRecorder</artifactId>
   		<version>2.1</version>
   		<scope>system</scope>
-  		<systemPath>C:\Users\Administrator\Desktop\PriceRajaAutomation\Price-Raja-App\externalJars\ATUTestRecorder_2.1.jar</systemPath>
+  		<systemPath>C:\Users\Administrator\Desktop\git-repo\PriceRajaAutomation\Price-Raja-App\externalJars\ATUTestRecorder_2.1.jar</systemPath>
   	</dependency>
   	<dependency>
 	    <groupId>io.appium</groupId>

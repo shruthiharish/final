@@ -14,7 +14,7 @@ public class DeviceCapablities {
 	public static AndroidDriver setDeviceCapablities() throws IOException{
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		 
-		 File appDir = new File("C:\\Users\\Administrator\\Desktop\\PriceRajaAutomation\\Price-Raja-App\\src\\test\\java\\First_Mobile\\Price_Raja_App\\Properties\\VioletStreet.apk");
+		 File appDir = new File(".\\src\\test\\java\\First_Mobile\\Price_Raja_App\\Properties\\VioletStreet.apk");
 		 capabilities.setCapability("automationName",Properties.getPropertyValue("automationName"));
 		 //capabilities.setCapability(CapabilityType.BROWSER_NAME, "");
 		 capabilities.setCapability("platformName",Properties.getPropertyValue("platformName"));

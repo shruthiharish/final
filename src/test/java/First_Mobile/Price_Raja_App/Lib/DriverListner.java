@@ -21,7 +21,7 @@ public class DriverListner implements WebDriverEventListener {
 	
 	{
 	//PropertiesConfigurator is used to configure logger from properties file
-    PropertyConfigurator.configure("C:\\Users\\Administrator\\Desktop\\PriceRajaAutomation\\Price-Raja-App\\src\\test\\java\\First_Mobile\\Price_Raja_App\\Properties\\log4j.properties");
+    PropertyConfigurator.configure(".\\src\\test\\java\\First_Mobile\\Price_Raja_App\\Properties\\log4j.properties");
 	}
 	
 	@Override
